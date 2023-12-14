@@ -9,6 +9,15 @@ pip install -r requirements.txt
 ```
 python simulation.py
 ```
+Need following data & models to run simulation
+```
+data/word_dict_1052.npy
+data/wv_1052_pciko_10_finetuned.npy
+
+model/modu_spoken_100_min5_win10.model
+model/pciko_10_finetuned.model
+model/pciko_10_finetuned.model.wv.vectors_ngrams.npy
+```
 
 ## modules
 ### Extract similar words
